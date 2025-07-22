@@ -1,0 +1,23 @@
+{
+  "name": "enclet",
+  "version": "0.1.0",
+  "description": "Simple end-to-end encrypted backup tool",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "esbuild --platform=node src/main.ts --bundle --format=esm --outfile=dist/main.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "esbuild": "^0.25.6",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "ignore": "^7.0.5"
+  }
+}
