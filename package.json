@@ -6,6 +6,7 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "esbuild --platform=node src/main.ts --bundle --format=esm --outfile=dist/main.js",
+    "build-cjs": "esbuild --platform=node src/main.ts --bundle --outfile=dist/main.cjs",
     "test": "vitest"
   },
   "keywords": [],
